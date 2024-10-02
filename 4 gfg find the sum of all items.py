@@ -39,4 +39,9 @@ dic = {'a': 100, 'b': 200, 'c': 300}
 
 sum_dic = functools.reduce(lambda ac,k: ac+dic[k], dic, 0)
 
+# sum_dic = functools.reduce(lambda ac,k: ac+dic[k], dic, 3)
+
+
 print("Sum :", sum_dic)   # Sum : 600 
+
+# print("Sum :", sum_dic)   # Sum : 603 
